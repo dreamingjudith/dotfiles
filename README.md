@@ -1,5 +1,5 @@
 # dotfiles
 
-Current I have dotfiles for
+In current, I have dotfiles for
 
 - Tmux
