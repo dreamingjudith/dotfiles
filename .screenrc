@@ -1,0 +1,30 @@
+# go to home dir
+#chdir
+
+# Automatically detach on hangup.
+autodetach on
+
+# Change default scrollback value for new windows
+defscrollback 100000
+
+# start with visual bell as default
+vbell on
+vbell_msg "bell on %t (%n)"
+
+# select split with mouse
+mousetrack on
+
+# look and feel
+caption always "%{= kw}%-w%{= rW}%n %t%{-}%+w %-= %Y-%m-%d %C:%s"
+
+shelltitle "shell"
+shell -$SHELL
+
+# Bind keys
+bindkey -k k3 prev
+bindkey -k k4 next
+
+# Create new window
+bindkey -k k2 screen
+
+layout save default
